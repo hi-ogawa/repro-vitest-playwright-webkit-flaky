@@ -1,0 +1,24 @@
+{
+  "name": "@vitest/example-lit",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "fixture-cjs-lib": "link:./fixture-cjs-lib",
+    "@types/node": "^20.10.7",
+    "@vitest/browser": "latest",
+    "playwright": "^1.40.1",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "packageManager": "pnpm@8.14.0+sha256.9cebf61abd83f68177b29484da72da9751390eaad46dfc3072d266bfbb1ba7bf",
+  "stackblitz": {
+    "startCommand": "npm run test"
+  }
+}

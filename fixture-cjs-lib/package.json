@@ -1,0 +1,8 @@
+{
+  "name": "fixture-cjs-lib",
+  "private": true,
+  "type": "commonjs",
+  "exports": {
+    "default": "./index.js"
+  }
+}
